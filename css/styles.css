@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    font-family: "Open Sans", "Times New Roman", sans-serif;
+    background-color: #edad54;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 14px;
+    background-color: #fff1ca;
+}
+
+.images {
+    margin: auto;
+    display: block;
+    border: 10px green solid;
+    border-radius: 6px;
+    margin-bottom: 14px;
+}
+
+.first-para,
+.cooks-note {
+    margin-bottom: 18px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin-bottom: 22px;
+}
+
+ul li,
+ol li {
+    padding: 8px 0;
+}
+
+.directions {
+    margin-bottom: 18px;
+}
+
+.directions,
+.cooks-note {
+    line-height: 2;
+}
+
+.links a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.main-head {
+    font-size: 42px;
+}
+
+.subhead {
+    font-size: 28px;
+}
+
+.main-head,
+.subhead {
+    font-family: Geologica, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px 8px;
+}
+
+.lower-links li {
+    display: inline-block;
+}
+
+.lower-links li:first-child {
+    padding-right: 8px;
+}
